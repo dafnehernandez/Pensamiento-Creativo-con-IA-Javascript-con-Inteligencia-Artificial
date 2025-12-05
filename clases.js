@@ -211,6 +211,10 @@ console.log("====================================");
 // 8) Pequeña demo final: "equipo completo"
 // ================================
 
+//=================================
+// LEGACY, CAMBIO HECHO POR CHAT
+//=================================
+ /*
 const team = [
   new Champion("Yasuo", "Mid", 130),
   new Champion("Jinx", "ADC", 100),
@@ -228,3 +232,121 @@ team.forEach((champ) => {
     champ.castSpell();
   }
 });
+
+*/
+
+// ======================================================
+// ==== CAMBIO #2: DEMOSTRACIONES ORGANIZADAS EN FUNCIONES
+// ======================================================
+
+// ----------------------------
+// DEMO 1: Campeones básicos
+// ----------------------------
+function demoChampions() {
+  separator();
+  console.log("DEMO: Campeones básicos");
+
+  const ashe = new Champion("Ashe", "ADC", 95);
+  const garen = new Champion("Garen", "Top", 120);
+
+  ashe.showInfo();
+  ashe.attack();
+
+  garen.showInfo();
+  garen.attack();
+}
+
+// ----------------------------
+// DEMO 2: Magos con herencia
+// ----------------------------
+function demoMage() {
+  separator();
+  console.log("DEMO: Mago (herencia)");
+
+  const lux = new Mage("Lux", "Mid", 110, 400);
+  lux.showInfo();
+  lux.attack();
+  lux.castSpell();
+}
+
+// ----------------------------
+// DEMO 3: Items NO META
+// ----------------------------
+function demoItems() {
+  separator();
+  console.log("DEMO: Ítems no meta (arrays)");
+
+  const potion = new Item("Poción de Vida", 50);
+  potion.show();
+  potion.updatePrice(60);
+}
+
+// ----------------------------
+// DEMO 4: Campeón dinámico
+// ----------------------------
+function demoDynamicChampion() {
+  separator();
+  console.log("DEMO: Campeón dinámico");
+
+  const teemo = new DynamicChampion("Teemo");
+  teemo.Q();
+  teemo.W();
+}
+
+// ----------------------------
+// DEMO 5: Clase sin constructor
+// ----------------------------
+function demoCamp() {
+  separator();
+  console.log("DEMO: Campamento neutral");
+
+  const blueBuff = new Camp();
+  blueBuff.shout();
+}
+
+// ----------------------------
+// DEMO 6: URF
+// ----------------------------
+function demoURF() {
+  separator();
+  console.log("DEMO: Campeón URF");
+
+  const sonaURF = new ChampURF();
+  sonaURF.Q();
+  sonaURF.R();
+}
+
+// ----------------------------
+// DEMO 7: Equipo completo
+// ----------------------------
+function demoTeam() {
+  separator();
+  console.log("DEMO: Equipo entrando a la Grieta");
+
+  const team = [
+    new Champion("Yasuo", "Mid", 130),
+    new Champion("Jinx", "ADC", 100),
+    new Champion("Leona", "Support", 60),
+    new Mage("Veigar", "Mid", 105, 500),
+  ];
+
+  team.forEach((champ) => {
+    champ.showInfo();
+    champ.attack();
+
+    if (champ instanceof Mage) {
+      champ.castSpell();
+    }
+  });
+}
+
+// ================================
+// EJECUCIÓN DE TODAS LAS DEMOS
+// ================================
+demoChampions();
+demoMage();
+demoItems();
+demoDynamicChampion();
+demoCamp();
+demoURF();
+demoTeam();
