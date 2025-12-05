@@ -51,7 +51,7 @@ _Crea un código con lo anteriormente explicado en JS_
 ![Respuesta-1](resources/fase2-2.png)
 ![Respuesta-2](resources/fase2-3.png)
 
-#### Código generado:
+#### Código completo generado:
 
 ```js
 // ================================

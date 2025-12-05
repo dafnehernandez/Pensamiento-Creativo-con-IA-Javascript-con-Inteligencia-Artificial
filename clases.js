@@ -69,6 +69,12 @@ console.log("====================================");
 // Esto es como hacer una build troll: funciona, pero no es la forma estándar.
 // En lugar de this.name y this.price, usamos this.data[0] y this.data[1].
 
+//=================================
+// LEGACY, CAMBIO HECHO POR CHAT
+//=================================
+
+/*
+
 class Item {
   constructor(name, price) {
     // Guardamos todo en un solo array
@@ -86,6 +92,25 @@ class Item {
     console.log(`Nuevo precio de ${this.data[0]}: ${this.data[1]} de oro`);
   }
 }
+*/
+
+//NUEVO USO
+
+class Item {
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+
+  show() {
+    console.log(`Ítem: ${this.name} | Costo: ${this.price} de oro`);
+  }
+
+  updatePrice(newPrice) {
+    this.price = newPrice;
+    console.log(`Nuevo precio de ${this.name}: ${this.price} de oro`);
+  }
+}
 
 const potion = new Item("Poción de Vida", 50);
 potion.show();
@@ -99,6 +124,11 @@ console.log("====================================");
 // ================================
 // Esto es como si crearas las skills del campeón "al vuelo".
 
+//=================================
+// LEGACY, CAMBIO HECHO POR CHAT
+//=================================
+
+/*
 class DynamicChampion {
   constructor(name) {
     this.name = name;
@@ -112,6 +142,23 @@ class DynamicChampion {
     this.W = () => {
       console.log(`${this.name} activa su W defensiva.`);
     };
+  }
+}
+*/
+
+//CAMBIO ACTUAL
+
+class DynamicChampion {
+  constructor(name) {
+    this.name = name;
+  }
+
+  Q() {
+    console.log(`${this.name} lanza su Q improvisada.`);
+  }
+
+  W() {
+    console.log(`${this.name} activa su W defensiva.`);
   }
 }
 
