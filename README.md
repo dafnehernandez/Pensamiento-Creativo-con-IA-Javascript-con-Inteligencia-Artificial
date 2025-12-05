@@ -870,13 +870,13 @@ sino que lo organizas en funciones demo que se llaman al final:
 
 ```mermaid
 flowchart TD
-    A[Ejecutar archivo JS] --> B[demoChampions()]
-    B --> C[demoMage()]
-    C --> D[demoItems()]
-    D --> E[demoDynamicChampion()]
-    E --> F[demoCamp()]
-    F --> G[demoURF()]
-    G --> H[demoTeam()]
+    A[Ejecutar archivo JS] --> B[demoChampions]
+    B --> C[demoMage]
+    C --> D[demoItems]
+    D --> E[demoDynamicChampion]
+    E --> F[demoCamp]
+    F --> G[demoURF]
+    G --> H[demoTeam]
 
     subgraph Demos
         B
