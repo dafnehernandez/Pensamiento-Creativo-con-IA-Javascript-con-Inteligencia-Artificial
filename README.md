@@ -1,4 +1,6 @@
 # Aplicación en Javascript
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Status](https://img.shields.io/badge/status-Stable-success.svg)
 
 ## Pensamiento Creativo con IA
 Demostrar la capacidad de aplicar el pensamiento creativo —aumentado mediante el uso de herramientas de Inteligencia Artificial (IA)— para resolver, optimizar y comunicar una solución novedosa a un desafío específico en el estudio o desarrollo con Javascript.
@@ -32,12 +34,23 @@ Crear clases sin usar objetos tradicionales para almacenar propiedades, reemplaz
 _Quiero que me expliques el tema de Clases específicamente en el contexto de JS como si tú fueras un coach de League of Legends es decir relacionado a los conceptos del juego, conceptos dominados por los jugadores en general la idea es comprender el tema mediante algo que me guste. Sugiere además soluciones en tus ejemplos que rompan con la práctica estándar como cuando en Python no se usan diccionarios sino arrays puro pero para Javascript. Explícalo con palabras sencillas_
 
 ### Respuesta de CHATGPT:
-
+![Prompt](resources/miniproyecto1.png)
+![Respuesta-1](resources/miniproyecto2.png)
+![Respuesta-instancia-metodo](resources/miniproyecto3.png)
+![Respuesta-solucion_no_meta-1](resources/miniproyecto5.png)
+![Respuesta-solucion_no_meta-2](resources/miniproyecto6.png)
+![Respuesta-solucion_no_meta-clase_sin_constructor](resources/miniproyecto8.png)
+![Resumen](resources/miniproyecto10.png)
 
 ### PROMPT #2: 
 _Crea un código con lo anteriormente explicado en JS_
 
 ### Respuesta de CHATGPT:
+
+![Prompt](resources/fase2-1.png)
+![Respuesta-1](resources/fase2-2.png)
+![Respuesta-2](resources/fase2-3.png)
+
 #### Código generado:
 
 ```js
@@ -226,7 +239,6 @@ team.forEach((champ) => {
 });
 
 ```
-
 ---
 
 ## 🛠️ Fase 3 — Revisión y refinamiento/evaluación
@@ -235,6 +247,13 @@ team.forEach((champ) => {
 
 ### PROMPT #3: 
 _Evalúa el código, identifica legibilidad, funcionamiento, posibles bugs, buenas prácticas y sugiera al menos dos optimizaciones para mejorar la eficiencia o legibilidad._
+
+### Respuesta de CHATGPT:
+
+![Prompt](resources/fase3-1.png)
+![Respuesta-1](resources/fase3-2.png)
+![Respuesta-2](resources/fase3-3.png)
+
 
 🚀 Sugerencias de optimización (mínimo 2, pero te doy varias)<br>
 
