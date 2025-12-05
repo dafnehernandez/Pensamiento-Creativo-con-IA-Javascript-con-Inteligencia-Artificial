@@ -786,7 +786,7 @@ demoTeam();
 
 🧩 1. Relaciones entre clases (versión “LoL” para no técnicos)
 
-### Diagrama mermaid 1:
+### Diagrama de relaciones:
 
 ```mermaid
 classDiagram
@@ -863,9 +863,12 @@ classDiagram
 
 ### 🔁 2. Flujo general de ejecución (las “demos” organizadas) - Diagrama mermaid 2:
 
-```mermaid
-La otra parte poco común (pero muy limpia) es que no ejecutas todo “tirado” en el archivo, sino que lo organizas en funciones demo que se llaman al final:
+```md
+La otra parte poco común (pero muy limpia) es que no ejecutas todo “tirado” en el archivo, 
+sino que lo organizas en funciones demo que se llaman al final:
+```
 
+```mermaid
 flowchart TD
     A[Ejecutar archivo JS] --> B[demoChampions()]
     B --> C[demoMage()]
