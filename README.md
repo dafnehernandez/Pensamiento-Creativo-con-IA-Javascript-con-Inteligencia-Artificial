@@ -786,7 +786,7 @@ demoTeam();
 
 🧩 1. Relaciones entre clases (versión “LoL” para no técnicos)
 
-### Diagrama de relaciones:
+### Diagrama de relaciones (hecho con mermaid #1):
 
 ```mermaid
 classDiagram
@@ -861,7 +861,7 @@ classDiagram
 
 ---
 
-### 🔁 2. Flujo general de ejecución (las “demos” organizadas) - Diagrama mermaid 2:
+### 🔁 2. Flujo general de ejecución (las “demos” organizadas) - Diagrama mermaid #2:
 
 ```md
 La otra parte poco común (pero muy limpia) es que no ejecutas todo “tirado” en el archivo, 
@@ -889,11 +889,18 @@ flowchart TD
     end
 ```
 
-En resumen esto puede verse de la siguiente forma:
+Otra forma de ver estos diagramas es mediante una imagen.
 
 ### Diagrama generado a partir de los dos anteriores:
 ![Diagrama](resources/Diagrama.png)
-
 ---
 
 ## CONCLUSIONES:
+---
+Aprender sobre Clases en JavaScript me permitió entender mejor cómo organizar el código y darle sentido a cada parte. Antes veía mis funciones como piezas separadas, pero ahora comprendo cómo las clases pueden unir propiedades y comportamientos de forma coherente.
+
+Las analogías que utilicé durante el proceso hicieron que el concepto se volviera más intuitivo y visual, ya que emplear algo que me gusta tanto como League of Legends me facilitó el proceso de comprensión, al ser algo que conozco hace más de 10 años domino los conceptos y la comprensión de las analogías por lo tanto me "desbloqueó", pensar en una clase como el diseño base de un campeón, en los objetos como las distintas versiones que entran a partida y en los métodos como sus habilidades me ayudó a visualizar de forma intuitiva cómo se relaciona cada parte del código. Sentí que pasé de solo “ejecutar funciones” a realmente diseñar entidades completas con propósito y personalidad.
+
+Además los ejemplos “no meta” me ayudaron a notar por qué una buena estructura marca la diferencia al mantener o ampliar un proyecto. Es evidente que cuando el código no sigue un orden, mantenerlo y extenderlo se vuelve mucho más difícil, casi como jugar una partida sin estrategia.
+
+Sé que aún tengo mucho por aprender, pero ahora cuento con una base más sólida para seguir profundizando en JavaScript y en Programación Orientada a Objetos. Este proceso no solo fortaleció mi comprensión técnica, sino que también aumentó mi motivación para seguir explorando y creando proyectos más complejos. Siento que he dado un paso importante dentro de la "partida" del desarrollo, y estoy lista para avanzar hacia lo que sigue.
