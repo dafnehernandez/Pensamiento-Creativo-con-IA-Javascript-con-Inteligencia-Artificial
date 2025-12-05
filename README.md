@@ -380,16 +380,6 @@ class BetterItem {
 ## 🎨 Fase 4 — Presentación y colaboración
 *Usa la IA Generativa (prompts de imagen, diagramas de código como Mermaid/Graphviz) para crear un esquema visual, diagrama o infografía que explique la parte más compleja o inusual de tu solución a un público no técnico.*
 
-### Diagrama Mermaid:
+### Diagrama :
 
-```mermaid
-flowchart TD
-    A[DynamicChampion Class] --> B[Prototype Methods Q & W]
-    A --> C[Instance: Lux]
-    C --> D[Lux.Q()]
-    C --> E[Lux.W()]
 
-    F[Item Class con Array] --> G[data[0] = nombre]
-    F --> H[data[1] = precio]
-    F --> I[Instance: Potion]
-```
